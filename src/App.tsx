@@ -6,13 +6,6 @@ import Moviecard from "./Moviecard.tsx";
 
 const API_URL = 'http://www.omdbapi.com?apikey=f2475bcd'
 
-// const movie1 = {
-//     "Title": "Batman v Superman: Dawn of Justice (Ultimate Edition)",
-//     "Year": "2016",
-//     "imdbID": "tt18689424",
-//     "Type": "movie",
-//     "Poster": "https://m.media-amazon.com/images/M/MV5BOTRlNWQwM2ItNjkyZC00MGI3LThkYjktZmE5N2FlMzcyNTIyXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_SX300.jpg"
-// }
 
 const App = () => {
     const [movies, setMovies] = useState([]);
